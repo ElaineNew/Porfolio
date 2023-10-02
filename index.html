@@ -35,7 +35,7 @@
               >Algonquin College</a
             >.
           </p>
-          <button class="profile_btn">More about me</button>
+          <button class="profile_btn" id="profile_btn">More about me</button>
         </div>
       </div>
 
@@ -44,7 +44,7 @@
       <div class="about">
         <h1>ABOUT ME</h1>
         <div class="hobbies">
-        <div class="hobby">
+        <div class="hobby" id="hobby1">
           <img src="./images/coding.png" alt="coding" />
           <div>
             <h3>coding</h3>
@@ -128,3 +128,11 @@
     </footer>
   </body>
 </html>
+
+<script>
+  const scroll_btn = window.document.getElementById('profile_btn');
+  const target = window.document.getElementById('hobby1');
+  scroll_btn.addEventListener('click', ()=>{
+    target.scrollIntoView({behavior:"smooth"});
+  })
+</script>
