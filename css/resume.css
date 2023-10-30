@@ -36,3 +36,24 @@ hr{
     display: flex;
     justify-content: space-between;
 }
+
+section h2{
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+
+.contact a{
+    color: #798357;
+}
+
+.contact a:hover{
+    color: #f9a03f;
+}
+
+.projects .project > h4 > a{
+    color: #798357;
+}
+
+.projects .project > h4 > a:hover{
+    color: #f9a03f;
+}

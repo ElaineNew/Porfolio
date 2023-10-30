@@ -1,26 +1,28 @@
 <!DOCTYPE html>
 <html lang="en">
   <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link rel="stylesheet" href="./css/public.css" />
-    <link rel="stylesheet" href="./css/index.css" />
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./css/public.css">
+    <link rel="stylesheet" href="./css/index.css">
+    <link rel="icon" href="favicon.ico" type="image/x-icon">
+    <script src="script/index.js" defer></script>
     <title>Jiaying Qiu</title>
   </head>
   <body>
     <nav class="navbar">
-      <span class="logo"><a href="index.html"><img src="./images/logo.png" alt="logo" /></a></span>
+      <span class="logo"><a href="index.html"><img src="./images/logo.png" alt="logo"></a></span>
       <ul>
         <li><a href="index.html">Home</a></li>
-        <li><a href="resume.html">Resume</a></li>
-        <li><a href="projects.html">Projects</a></li>
-        <li><a href="contact.html">Contact</a></li>
+        <li><a href="html/resume.html">Resume</a></li>
+        <li><a href="html/projects.html">Projects</a></li>
+        <li><a href="html/contact.html">Contact</a></li>
       </ul>
     </nav>
     <main>
       <!-- picture of me -->
       <div class="profile">
-        <img src="./images/myphoto.jpg" alt="my photo" class="my_photo" />
+        <img src="./images/myphoto.jpg" alt="my photo" class="my_photo">
         <div class="introduction background-secondary">
           <p>Hello!</p>
           <h1 class="text-important">I'm Jiaying Qiu</h1>
@@ -39,13 +41,13 @@
         </div>
       </div>
 
-      <hr />
+      <hr>
 
       <div class="about">
         <h1>ABOUT ME</h1>
         <div class="hobbies">
         <div class="hobby" id="hobby1">
-          <img src="./images/coding.png" alt="coding" />
+          <img src="./images/coding.png" alt="coding">
           <div>
             <h3>coding</h3>
             <p>I'm lucky my job is my hobby. I enjoy designing and implementing applications, solving real life problems.</p>
@@ -61,7 +63,7 @@
         </div>
 
         <div class="hobby">
-            <img src="./images/baking.png" alt="baking" />
+            <img src="./images/baking.png" alt="baking">
             <div>
               <h3>cooking</h3>
               <p>I enjoy cooking and baking. For me, the greatest satisfaction is being able to gather with family and friends to share delicious food.</p>
@@ -77,7 +79,7 @@
           </div>
 
           <div class="hobby">
-            <img src="./images/language.png" alt="language" />
+            <img src="./images/language.png" alt="language">
             <div>
               <h3>bilingual</h3>
               <p>I'm fluent in English and native in Chinese. I enjoy language learning and embracing different culture. I can speak some Korean and I'm learning French.</p>
@@ -107,7 +109,7 @@
             <img src="./images/coding.png" alt="coding">
             <p>coding</p>
           </div>
-          <div>
+          <div  class="hobby1">
             <img src="./images/cat.png" alt="cat person">
             <p>cat<br>person</p>
           </div>
@@ -129,10 +131,3 @@
   </body>
 </html>
 
-<script>
-  const scroll_btn = window.document.getElementById('profile_btn');
-  const target = window.document.getElementById('hobby1');
-  scroll_btn.addEventListener('click', ()=>{
-    target.scrollIntoView({behavior:"smooth"});
-  })
-</script>

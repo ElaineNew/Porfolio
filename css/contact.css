@@ -91,6 +91,9 @@ margin-top: 10px;
 .work_with_me .social div:hover {
     transform: scale(1.2);
 }
+input, textarea{
+    border: none;
+}
 
 @media screen and (max-width:600px){    
     .work_with_me .social span{
