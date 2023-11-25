@@ -7,6 +7,7 @@
       src="https://kit.fontawesome.com/3bf1c7cc57.js"
       crossorigin="anonymous" defer
     ></script>
+    <script src="../script/project.js" defer></script>
     <link rel="stylesheet" href="../css/public.css">
     <link rel="stylesheet" href="../css/projects.css">
     <title>Jiaying Qiu</title>
@@ -26,53 +27,30 @@
       <h1>PROJECTS</h1>
       <div class="projects">
         <div class="project">
-          <img src="../images/project-purrfect.png" alt="a pet adoption website">
+          <img src="../images/purrfect.png" alt="website screenshot" id="project_img">
           <!-- a title, a brief description, the date completed
             , technologies used, and screenshot or image related to the project. -->
           <div class="description">
-            <h3>Purrfect</h3>
+            <h3 id="project_title">Purrfect</h3>
             <div class="project_link">
-              <a href="https://github.com/ElaineNew/Purrfect">github</a>
-              <a href="https://purrfect-pet-shelter.onrender.com">live</a>
+              <a id="github_link" href="https://github.com/ElaineNew/Purrfect">[github]</a>
+              <a id="live_link" href="https://purrfect-pet-shelter.onrender.com">[live]</a>
             </div>
 
-            <p><span class="text-primary">Description:</span> A website for pet adoption.</p>
-            <p><span class="text-primary">Technologies:</span> HTML/CSS, Javascript, Bootstrap, Node.js, ejs, MongoDB</p>
-            <p><span class="text-primary">Date completed:</span> July 31, 2023</p>
+            <p><span class="text-primary" >Description:</span> <span id="project_description">A website for pet adoption.</span></p>
+            <p><span class="text-primary" >Technologies:</span><span id="project_technology">HTML/CSS, Javascript, Bootstrap, Node.js, ejs, MongoDB</span> </p>
+            <p><span class="text-primary">Date completed:</span> <span id="project_date">July 31, 2023</span></p>
           </div>
-
+  
         </div>
-        <div class="project">
-          <img src="../images/project-jokes.png" alt="a joke website">
-          <div class="description">
-            <h3>Joke of the Day</h3>
-            <div class="project_link">
-              <a href="https://github.com/ElaineNew/Joke-of-the-Day">github</a>
-              <a href="https://elainenew.github.io/Joke-of-the-Day/">live</a>
-            </div>
 
-            <p><span class="text-primary">Description:</span> A website for daily jokes.</p>
-            <p><span class="text-primary">Technologies:</span> HTML/CSS, Javascript, icanhazdadjoke API</p>
-            <p><span class="text-primary">Date completed:</span> Oct 26, 2023</p>
-          </div>
-          
-        </div>
-        <div class="project">
-          <img src="../images/project-restaurant.jpg" alt="an restaurant website">
-          <div class="description">
-            <h3>Alirang</h3>
-            <div class="project_link">
-              <a href="https://github.com/ElaineNew/Alirang">github</a>
-              <a href="#">live</a>
-            </div>
-
-            <p><span class="text-primary">Description:</span> A website for a Korean restaurant.</p>
-            <p><span class="text-primary">Technologies:</span> HTML/CSS, Javascript, React, Springboot, SQL</p>
-            <p><span class="text-primary">Date completed:</span> July 31, 2023</p>
-          </div>
-          
+        <!-- buttons to navigate projects -->
+        <div>
+          <button class="background-primary" id="btn_previous">Previous</button>
+          <button class="background-primary" id="btn_next">Next</button>
         </div>
       </div>
+
       <hr>
 
       <!-- showcase my skill set -->
@@ -99,8 +77,25 @@
       
     </main>
 
-    <footer class="background-primary">
-      <p class="text-secondary">Jiaying Qiu @ 2023</p>
+    <footer>
+      <div class="work_with_me">
+        <h2>Let's work together!</h2>
+        <div class="social">
+          <div>
+            <i class="fa-brands fa-github"></i><span class="github"><a href="https://github.com/ElaineNew">GitHub</a></span>
+          </div>
+          <div>
+          <i class="fa-brands fa-linkedin"></i><span class="linkedin"><a href="https://www.linkedin.com/public-profile/settings?trk=d_flagship3_profile_self_view_public_profile">Linkedin</a></span>
+          </div>
+          <div>
+          <i class="fa-brands fa-instagram"></i><span class="Instagram"><a href="https://instagram.com/elaine.8577?igshid=MzMyNGUyNmU2YQ%3D%3D&utm_source=qr">Instagram</a></span>
+          </div>
+          <div>
+          <i class="fa-brands fa-at"></i><span class="email"><a href="mailto:qiu00038@algonquinlive.com">Email</a></span>
+          </div>
+        </div>
+      </div>
+      <p class="text-secondary background-primary">Jiaying Qiu @ 2023</p>
     </footer>
   </body>
 </html>

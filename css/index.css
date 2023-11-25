@@ -94,7 +94,7 @@ html{
 }
 
 .profile_btn{
-    margin-top: 30px;
+    display: none;
 }
 
 .introduction{
